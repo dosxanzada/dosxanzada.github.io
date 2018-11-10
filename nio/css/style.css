@@ -1,0 +1,44 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.carousel {
+    height: 50%;
+}
+
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+    height: 100%;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.grre {
+    background-color: #eceff1 !important;
+}
+
+.page-footer {
+    background-color: #fff;
+}
+
+main {
+    margin-top: 50px;
+}
+
+h2 {
+    padding-bottom: 50px;
+}
+
+.teal.accent-3 {
+    background-color: #000;
+}

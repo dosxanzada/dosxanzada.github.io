@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>RAILS.KZ | SPORT PHAZA</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        html, body, header, .carousel{
+            height: 70vh;
+        }
+        
+        @media (max-width: 740px){
+            html, body, header, .carousel{
+            height: 100vh;
+            }
+        }
+        
+        @media (min-width: 800px) and (max-width: 850px){
+            html, body, header, .carousel{
+            height: 100vh;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!--   NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand waves-effect">
+                <strong>RAILS.KZ</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link waves-effect">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#catalog" class="nav-link waves-effect">Каталог товаров</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link waves-effect">Оплата и доставка</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav nav-flex-icons mr-right">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link waves-effect" style="align-items: center">8 (777) 777 77 77</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/" class="nav-link waves-effect">
+                            <i class="fa fa-instagram fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carousel-ex" class="carousel slide carousel-fade pt-4" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
+            <li data-target="#carousel-ex" data-slide-to="1" id="catalog"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item">
+                <div class="view" style="background-image: url(img/1.jpg); background-repeat: no-repeat; background-size: cover;">
+                    <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
+                        <div class="text-center white-text mx-5 wow fadeIn">
+                            <h1 class="mb-4">RAILS.KZ - спорт гарантия здоровья!</h1>
+                            <p>
+                                <strong>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, quidem?
+                                </strong>
+                            </p>
+                            <a href="#" class="btn btn-light">Оставить заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item active">
+                <div class="view" style="background-image: url(img/2.jpg); background-repeat: no-repeat; background-size: cover;">
+                    <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
+                        <div class="text-center white-text mx-5 wow fadeIn">
+                            <h1 class="mb-4">RAILS.KZ - спорт гарантия здоровья!</h1>
+                            <p>
+                                <strong>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, quidem?
+                                </strong>
+                            </p>
+                            <a href="#" class="btn btn-light">Оставить заявку</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carousel-ex" role="button" data-slide="prev" style="margin-top: 7%">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-ex" role="button" data-slide="next" style="margin-top: 7%">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <!--CATALOG    -->
+
+    <main>
+        <div class="container">
+
+            <h2 class="text-center">Каталог товаров</h2>
+
+            <!-- Card deck -->
+            <div class="card-deck">
+
+                <!-- Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Турник - турник1</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-light btn-md">Подробнее</button>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Турник - турник3</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-light btn-md">Купить</button>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Турник - турник2</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-light btn-md">Заказать звонок</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card deck -->
+            <div class="card-deck">
+
+                <!-- Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Турник - турник1</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-light btn-md">Read more</button>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Турник - турник3</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-light btn-md">Read more</button>
+                    </div>
+                </div>
+
+                <!-- Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Турник - турник2</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-blue-grey btn-md">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="grre">
+        <div class="container" style="padding: 50px 0 50px 0">
+            <h2 class="text-center">Заказать звонок</h2>
+
+            <div class="row">
+
+                <div class="col-2">
+                </div>
+                <div class="col-8">
+                    <form action="mail.php" method="post">
+                        <div class="form-row">
+                            <div class="col">
+                                    <input name="name" type="text" class="form-control" placeholder="Имя">
+                            </div>
+                            <div class="col">
+                                    <input name="phone" type="text" class="form-control" placeholder="Телефон">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-2">
+                </div>
+                <br><br><br>
+                <div class="text-center col-md">
+                    <a href="#" class="btn btn-info">Оставить заявку</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!--   BUY AND DELIVERY-->
+    <main>
+        <div class="container">
+            <h2 class="text-center">Оплата и доставка</h2>
+
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/maps.png" alt="">
+                </div>
+                <div class="col-7" style="padding-left: 150px;">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum illum quibusdam modi itaque ab commodi. Amet, necessitatibus? Fugiat, numquam. Error hic atque animi eaque, aperiam quasi deleniti aliquid voluptatum ut, fuga est tenetur eius, possimus temporibus nihil perspiciatis et vitae vero! Illum delectus nostrum assumenda ratione asperiores soluta fugit, ut quidem ipsa odit, et, quod libero in quas laboriosam tempore est culpa veniam officiis incidunt. Dignissimos magnam fugit ipsam dolorum tenetur delectus accusamus hic numquam provident autem labore, at, dolor, repellendus, voluptatem id necessitatibus quisquam molestias quae rem! Neque assumenda perferendis sapiente, aspernatur ratione minima repellat facilis corporis possimus est?
+                </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue-grey lighten-5" style="margin-top: 50px; padding-top: 5px">
+
+
+        <div class="container text-center text-md-left mt-5">
+
+            <!-- Grid row -->
+            <div class="row mt-3 dark-grey-text">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+                    <!-- Content -->
+                    <h6 class="text-uppercase font-weight-bold">RAILS.KZ</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Карта сайта</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="dark-grey-text" href="#!">Главная</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Каталог товаров</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Турники</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Бруся</a>
+                    </p>
+
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <!-- Links -->
+                    <h6 class="text-uppercase font-weight-bold">Контакты</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fa fa-home mr-3"></i> Казахстан, Алматы</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> 8 (777) 777 77 77</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
