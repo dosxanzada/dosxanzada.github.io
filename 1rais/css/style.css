@@ -42,3 +42,24 @@ h2 {
 .teal.accent-3 {
     background-color: #000;
 }
+
+@media screen and (max-width: 770px){
+    .form-row{
+        display: contents;
+
+    }
+    
+    .inp2{
+        margin-top: 5px;
+    }
+        
+    .inp22{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .card-deck{
+        display: contents;
+    }
+}
