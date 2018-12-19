@@ -1,0 +1,98 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.carousel {
+    height: 50%;
+}
+
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+    height: 100%;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.grre {
+    background-color: #eceff1 !important;
+}
+
+.send input{
+    border-radius: .125rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0px;
+}
+
+.page-footer {
+    background-color: #fff;
+}
+
+main {
+    margin-top: 50px;
+}
+
+h2 {
+    padding-bottom: 50px;
+}
+
+.teal.accent-3 {
+    background-color: #000;
+}
+
+@media screen and (max-width: 770px) {
+    .form-row {
+        display: contents;
+
+    }
+
+    .inp2 {
+        margin-top: 5px;
+    }
+
+    .inp22 {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .card-deck {
+        /*        display: contents;*/
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .a {
+        display: block;
+    }
+
+    .b {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .a {
+        display: none;
+    }
+
+    .b {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-tel {
+        display: flex;
+        justify-content: center;
+    }
+}
