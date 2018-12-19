@@ -39,9 +39,10 @@
 
     <!--   NAVBAR -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
-        <div class="container">
+        <div class="container nav-tel" style="display: flex; justify-content: center;">
             <a href="#main" class="navbar-brand waves-effect">
-                <strong>RAIS.KZ</strong>
+                <strong class="a">RAIS.KZ</strong>
+                <strong class="b">+7 (702) 350 03 93</strong>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -62,7 +63,7 @@
 
                 <ul class="navbar-nav nav-flex-icons mr-right">
                     <li class="nav-item">
-                        <a href="#" class="nav-link waves-effect" style="font-size: 24px; margin-right: 70px;">8 (777) 777 77 77</a>
+                        <a href="#" class="navbar-brand waves-effect" style="font-size: 24px; margin-right: 70px;">+7 (702) 350 03 93</a>
                     </li>
                     <li class="nav-item">
                         <a href="https://www.instagram.com/rais.kz/" class="nav-link waves-effect" target="_blank">
@@ -70,23 +71,16 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.instagram.com/" class="nav-link waves-effect">
+                        <a href="https://vk.com/lirax2000" class="nav-link waves-effect" target="_blank">
                             <i class="fa fa-vk fa-2x"></i>
                         </a>
                     </li>
-                    <!--
-<li>
-    <form method="LINK" action="http://codehelper.ru">
-        <input type="submit" value="Go to CodeHelper!">
-    </form>
-</li>
--->
-
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!--   CAROUSEL-->
     <div id="carousel-ex" class="carousel slide carousel-fade pt-4" data-ride="carousel">
         <ol class="carousel-indicators">
             <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
@@ -136,21 +130,18 @@
     </div>
 
     <!--CATALOG    -->
-
-
     <main>
         <div class="container">
-
             <h2 class="text-center">Каталог товаров</h2>
 
             <!-- Card deck -->
             <div class="card-deck">
 
                 <!-- Card -->
-                <div class="card mb-4">
+                <div class="card mb-3">
                     <!--Card image-->
                     <div class="view overlay">
-                        <img class="card-img-top" src="img/card1.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/card1.png" alt="Card image cap">
                         <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                         </a>
@@ -158,8 +149,9 @@
 
                     <!--Card content-->
                     <div class="card-body text-center">
-                        <h4 class="card-title">Турник - турник1</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Турник-брусья-пресс</h4>
+                        <h5>28 800 тг</h5>
+                        <p class="card-text"></p>
                         <button type="button" class="btn btn-light btn-md" data-toggle="modal" data-target="#infoModal">Подробнее</button>
                     </div>
                 </div>
@@ -201,7 +193,7 @@
                                         <!--/Second slide-->
                                         <!--Third slide-->
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="img/card3.jpg" alt="Third slide" style="background-size: 100px 100px;">
+                                            <img class="d-block w-100" src="img/card2.png" alt="Third slide" style="background-size: 100px 100px;">
                                         </div>
                                         <!--/Third slide-->
                                     </div>
@@ -209,7 +201,7 @@
                                 </div>
                                 <!--/.Carousel Wrapper-->
 
-                                <p class="card-text" style="margin-top: 25px">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text" style="margin-top: 25px"></p>
 
 
                             </div>
@@ -226,10 +218,10 @@
                 </div>
 
                 <!-- Card -->
-                <div class="card mb-4">
+                <div class="card mb-3">
                     <!--Card image-->
                     <div class="view overlay">
-                        <img class="card-img-top" src="img/card2.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/card2.png" alt="Card image cap">
                         <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                         </a>
@@ -237,17 +229,18 @@
 
                     <!--Card content-->
                     <div class="card-body text-center">
-                        <h4 class="card-title">Турник - турник3</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Турник</h4>
+                        <h5>7 500 тг</h5>
+                        <p class="card-text"></p>
                         <button type="button" class="btn btn-light btn-md">Подробнее</button>
                     </div>
                 </div>
 
                 <!-- Card -->
-                <div class="card mb-4">
+                <div class="card mb-3">
                     <!--Card image-->
                     <div class="view overlay">
-                        <img class="card-img-top" src="img/card3.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="img/card3.png" alt="Card image cap">
                         <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                         </a>
@@ -255,8 +248,28 @@
 
                     <!--Card content-->
                     <div class="card-body text-center">
-                        <h4 class="card-title">Турник - турник2</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h4 class="card-title">Груши</h4>
+                        <h5>от 7 700 тг</h5>
+                        <p class="card-text"></p>
+                        <button type="button" class="btn btn-light btn-md" id="request">Подробнее</button>
+                    </div>
+                </div>
+                
+                <!-- Card -->
+                <div class="card mb-3">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="img/card3.png" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+
+                    <!--Card content-->
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Прочие спортивные товары</h4>
+                        <h5></h5>
+                        <p class="card-text"></p>
                         <button type="button" class="btn btn-light btn-md" id="request">Подробнее</button>
                     </div>
                 </div>
@@ -271,22 +284,25 @@
 
             <div class="row justify-content-center" style="margin: 0">
                 <div class="col-8">
-                    <form action="mail.php" method="post">
+                    <form method="post" action="mail.php">
                         <div class="form-row">
                             <div class="col">
-                                <input name="name" type="text" class="form-control" placeholder="Имя">
+                                <input name="name" type="text" class="form-control" placeholder="Имя"/>
                             </div>
                             <div class="col inp2">
-                                <input name="phone" type="text" class="form-control" placeholder="Телефон">
+                                <input name="phone" type="text" class="form-control" placeholder="Телефон"/>
                             </div>
                         </div>
+                        
+                        <div class="send text-center col-md" style="margin-top: 25px;">
+               <input type="submit" id="send" name="send" value="Оставить заявку" class="btn btn-info">
+<!--                <a href="#" class="btn btn-info" id="delivery">Оставить заявку</a>-->
+            </div>
                     </form>
                 </div>
             </div>
 
-            <div class="text-center col-md" style="margin-top: 25px;">
-                <a href="#" class="btn btn-info" id="delivery">Оставить заявку</a>
-            </div>
+            
         </div>
     </main>
 
@@ -401,7 +417,6 @@
         }
 
         google.maps.event.addDomListener(window, 'load', regular_map);
-
     </script>
 
 </body>

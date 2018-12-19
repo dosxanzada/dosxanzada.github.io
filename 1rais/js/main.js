@@ -11,25 +11,13 @@ $(document).ready(function () {
         }
     });
 
-
+    $('title-phone').value = 'sdsd';
 
     $('ul').click(function () {
         $('#navbarContent').removeClass('.show');
     });
 
     
-    
-    $('button').click(function(){
-        $('.sex').remove();
-    });
-    
-});
 
-
-$(document).ready(function(){
-    
-    $('button').click(function(){
-        $('.sex').remove();
-    });
     
 });
