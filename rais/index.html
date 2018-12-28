@@ -156,24 +156,25 @@
             <!-- Card deck -->
             <div class="card-deck">
 
-                <!-- Card -->
+                <!-- Card 1 -->
                 <div class="col-md-3" style="padding: 0">
                     <div class="card mb-3">
                         <div class="view overlay">
-                            <a href="" data-toggle="modal" data-target="#infoModal">
+                            <a href="" data-toggle="modal" data-target="#position1">
                                 <img class="card-img-top" src="img/card1.png" alt="Card image cap">
                             </a>
                         </div>
                         <div class="card-body text-center">
                             <h4 class="card-title">Турник-брусья-пресс</h4>
-                            <h5>28 800 тг</h5>
-                            <button type="button" class="btn btn-light btn-md" data-toggle="modal" data-target="#infoModal">Подробнее</button>
+                            <h5>28 800 &#8376;</h5>
+                            <button type="button" class="btn btn-light btn-md" data-toggle="modal" data-target="#position1">Подробнее</button>
 
                         </div>
                     </div>
                 </div>
 
-                <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <!-- Modal 1 -->
+                <div class="modal fade" id="position1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-body">
@@ -181,7 +182,7 @@
                                 <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel" style="height: auto">
                                     <!--Indicators-->
                                     <ol class="carousel-indicators">
-                                        <li data-target="#carousel-example-1z" data-slide-to="0" class="active" style="background-color: black"></li>
+                                        <li data-target="#carousel-example-1z" data-slide-to="0" class="position-indicator active" style="background-color: black"></li>
                                         <li data-target="#carousel-example-1z" data-slide-to="1" style="background-color: black"></li>
                                         <li data-target="#carousel-example-1z" data-slide-to="2" style="background-color: black"></li>
                                     </ol>
@@ -224,14 +225,13 @@
                     </div>
                 </div>
 
-                <!-- Card -->
+                <!-- Card 2 -->
                 <div class="col-md-3" style="padding: 0">
                     <div class="card mb-3">
                         <!--Card image-->
                         <div class="view overlay">
-                            <img class="card-img-top" src="img/card2.png" alt="Card image cap">
-                            <a href="#!">
-                                <div class="mask rgba-white-slight"></div>
+                            <a href="" data-toggle="modal" data-target="#position2">
+                                <img class="card-img-top" src="img/card2.png" alt="Card image cap">
                             </a>
                         </div>
 
@@ -239,21 +239,14 @@
                         <div class="card-body text-center">
                             <h4 class="card-title">Турник</h4>
                             <br>
-                            <h5>7 500 тг</h5>
-                            <button type="button" class="btn btn-light btn-md" data-toggle="modal" data-target=".bd-example-modal-xl">Подробнее</button>
+                            <h5>7 500 &#8376;</h5>
+                            <button type="button" class="btn btn-light btn-md" data-toggle="modal" data-target="#position2">Подробнее</button>
                         </div>
                     </div>
                 </div>
 
-
-
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#position1">
-                    Launch demo modal
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="position1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <!-- Modal 2 -->
+                <div class="modal fade" id="position2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -265,12 +258,14 @@
                             <div class="modal-body">
                                 <div class="row position-modal">
                                     <div class="col-md-6 col-sm-12">
-                                        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel" style="height: auto">
+
+
+                                        <div id="pos-carousel-2" class="carousel slide carousel-fade" data-ride="carousel" style="height: auto">
                                             <!--Indicators-->
                                             <ol class="carousel-indicators">
-                                                <li data-target="#carousel-example-1z" data-slide-to="0" class="active" style="background-color: black"></li>
-                                                <li data-target="#carousel-example-1z" data-slide-to="1" style="background-color: black"></li>
-                                                <li data-target="#carousel-example-1z" data-slide-to="2" style="background-color: black"></li>
+                                                <li data-target="#pos-carousel-2" data-slide-to="0" class="active" style="background-color: black"></li>
+                                                <li data-target="#pos-carousel-2" data-slide-to="1" style="background-color: black"></li>
+                                                <li data-target="#pos-carousel-2" data-slide-to="2" style="background-color: black"></li>
                                             </ol>
                                             <!--/.Indicators-->
                                             <!--Slides-->
@@ -293,6 +288,9 @@
                                             </div>
                                             <!--/.Slides-->
                                         </div>
+
+
+
                                     </div>
                                     <div class="col-md-6 col-sm-12">
                                         <div class="card-body">
@@ -304,32 +302,31 @@
                                                 - Узкий параллельный хват для подтягивания
                                                 <br>
                                             </p>
-                                            <table class="table table-bordered">
-                                                <thbody>
-                                                    <tr>
-                                                        <th scope="col">Функции</th>
-                                                        <td>Турник</td>
-                                                    </tr>
-                                                </thbody>
-                                                <thbody>
-                                                    <tr>
-                                                        <th scope="col">Крепление</th>
-                                                        <td>Настенный</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="col">Макс. вес пользователя</th>
-                                                        <td>250 кг</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="col">Длина перекладины</th>
-                                                        <td>110 см</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <th scope="col">Крепление</th>
-                                                        <td>Настенный</td>
-                                                    </tr>
-                                                </thbody>
+                                            <hr>
+                                            <table>
+                                                <tr>
+                                                    <td width="50%"><b>Функции</b>
+                                                    </td>
+                                                    <td width="50%">Турник</td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="50%"><b>Крепление </b>
+                                                    </td>
+                                                    <td width="50%">Настенный </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="50%"><b>Макс. вес пользователя</b>
+                                                    </td>
+                                                    <td width="50%">250 кг</td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="50%"><b>Длина перекладины</b>
+                                                    </td>
+                                                    <td width="50%">110 см</td>
+                                                </tr>
                                             </table>
+                                            <hr>
+                                            <h5>7 500 &#8376;</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -338,19 +335,13 @@
                     </div>
                 </div>
 
-
-
-
-
-
-                <!-- Card -->
+                <!-- Card 3 -->
                 <div class="col-md-3" style="padding: 0">
                     <div class="card mb-3">
                         <!--Card image-->
                         <div class="view overlay">
-                            <img class="card-img-top" src="img/card3.png" alt="Card image cap">
-                            <a href="#!">
-                                <div class="mask rgba-white-slight"></div>
+                            <a href="" data-toggle="modal" data-target="#position3">
+                                <img class="card-img-top" src="img/card3.png" alt="Card image cap">
                             </a>
                         </div>
 
@@ -358,7 +349,7 @@
                         <div class="card-body text-center">
                             <h4 class="card-title">Груши</h4>
                             <br>
-                            <h5>от 7 700 тг</h5>
+                            <h5>от 7 700 &#8376;</h5>
                             <button type="button" class="btn btn-light btn-md" data-toggle="modal" data-target="#infoModal">Подробнее</button>
                         </div>
                     </div>
