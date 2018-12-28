@@ -27,7 +27,7 @@ body,
     background-color: #eceff1 !important;
 }
 
-.send input{
+.send input {
     border-radius: .125rem;
     cursor: pointer;
     text-transform: uppercase;
@@ -48,6 +48,22 @@ h2 {
 
 .teal.accent-3 {
     background-color: #000;
+}
+
+.card {
+    height: 450px;
+}
+
+table{
+    padding: .5rem;
+}
+
+table.table td, table.table th {
+/*     padding-top: 1.1rem; */
+/*     padding-bottom: 1rem; */
+}
+.card-body {
+/*    padding: 0 0 0 0;*/
 }
 
 @media screen and (max-width: 770px) {
@@ -94,5 +110,12 @@ h2 {
     .nav-tel {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .position-modal{
+        display: flex;
+        flex-direction: column;
     }
 }
