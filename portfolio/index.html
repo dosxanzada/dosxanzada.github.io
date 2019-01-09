@@ -1,75 +1,205 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Nunito Sans|Montserrat|Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Dossanov Bekmurat</title>
+
+    <title>Dossanov Studio</title>
 </head>
 
 <body>
-    <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: #0050a5">
         <div class="container">
-            <div class="nav">
-                <a href="#" class="logo">
-                    <img src="img/logo.png" alt="">
-                </a>
-                <ul class="menu">
-                    <li class="menu_item"><a href="#">Главная</a></li>
-                    <li class="menu_item"><a href="#">Услуги</a></li>
-                    <li class="menu_item"><a href="#">Портфолио</a></li>
-                    <li class="menu_item"><a href="#">О нас</a></li>
-                    <li class="menu_item"><a href="#">Контакты</a></li>
+            <a class="navbar-brand" href="#">Dossanov Studio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Главная страница<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Информация</a>
+                    </li>
                 </ul>
-            </div>
+                <span class="navbar-text">
+                    Контакты:
+                    <a href="">8727</a>
 
-            <div class="title">
-                <h1>Знания - сила</h1>
-                <p>Любая успешная карьера начинается с хорошего образования!</p>
-                <a href="" class="btn btn_header">Подробнее</a>
-
+                    <a href="https://www.instagram.com/dosxanzada/" target="_blank"><i class="fa fa-instagram fa-lg" style="margin-left: 35px"></i>
+                    </a>
+                </span>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <section class="edu">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="img/dev.png" alt="">
-                </div>
-                <div class="col-md-6">
-                    <div class="info">
-                        <h1>Образование - это</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui</p>
-                        <div class="list">
-                            <div class="list_item">
-                                <img src="img/icon-1.png" alt="">
-                                <p>Узнайте все</p>
-                            </div>
-                            <div class="list_item">
-                                <img src="img/icon-2.png" alt="">
-                                <p>Поговорите с нами</p>
-                            </div>
-                            <div class="list_item">
-                                <img src="img/icon-3.png" alt="">
-                                <p>Защитите!</p>
-                            </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item back1 active">
+                <div class="container">
+                    <div class="carousel-caption text-left">
+                        <div class="back-info">
+                            <h1>Создание сайта</h1>
+                            <p>Создание сайта начиная с 15 000 тг</p>
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Подробнее</a></p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="carousel-item back2">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Услуги дизайнера</h1>
+                        <p>Создание визиток, баннеров, буклеток, пригласительных и т.д.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Подробнее</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item back3">
+                <div class="container">
+                    <div class="carousel-caption text-right">
+                        <h1>Обучающие курсы</h1>
+                        <p>Курсы основы программирование, веб-программирование, дизайн</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Подробнее</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <section class="services">
+        <div class="container">
+            <h1 class="display">
+                Услуги
+            </h1>
+
+
+            <div class="card-deck">
+                <div class="card">
+                    <img src="img/services-1.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Сайты начиная от 15 000 тг</h5>
+                        <p class="card-text">This is a longer card with supporting te</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/services-2.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Услуги дизайнера</h5>
+                        <p class="card-text">This card has supporting text below as a natural </p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/services-3.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <span class="desc"><a href="">Создание сайта</a></span>
+                            <img src="img/services-1.png" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <span class="desc"><a href="">Услуги дизайнера</a></span>
+                            <img src="img/services-2.png" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <span class="desc"><a href="">Обучающие курсы</a></span>
+                            <img src="img/services-3.png" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
     </section>
+-->
+
+            <section class="about">
+                <div class="container">
+                    <h1 class="display">
+                        О нас
+                    </h1>
+                    <main role="main" class="container">
+                        <h4 class="quest">Кто мы?!</h4>
+                        <p class="lead">
+                            Молодая, но опытная команда из дизайнеров и разработчиков веб и мобильных приложений.
+                        </p>
+                        <hr>
+                        <h4 class="quest">Почему так дешево?</h4>
+                        <p class="lead">
+                            Так как мы молоды, мы работаем на перспективу. Сейчас наша первая миссия повысить планку сделав проекты дешево и <span style="color: red;">КАЧЕСТВЕННО!</span>
+                        </p>
+                        <hr>
+                        <h4 class="quest">Срок выполнения заказа</h4>
+                        <p class="lead">
+                            Команда из дизайнеров и разработчиков веб и мобильных приложений.
+                        </p>
+                    </main>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+
+                </div>
 
 
+            </section>
 
 
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
 </html>

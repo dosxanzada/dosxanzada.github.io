@@ -1,0 +1,169 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    width: 195px;
+    height: 56px;
+    border-radius: 30px;
+    background-color: #27ae61;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+header {
+    background: url("../img/back-2.png") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    display: flex;
+    padding: 48px 0;
+}
+
+.nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    z-index: 99999999;
+}
+
+.logo {
+    margin-right: 360px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_item a {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 40px;
+
+}
+
+.title {
+    margin: 190px 0 0 0;
+    text-align-last: center;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.title p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 7px;
+}
+
+.title a {
+    margin-top: 52px;
+}
+
+.edu {
+    padding: 60px 0;
+}
+
+.edu img {
+    width: 100%;
+}
+
+.info {
+    width: 450px;
+    margin: 64px 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.edu h1 {
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.edu p {
+    color: #1a1a1a;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 21px;
+}
+
+.list_item {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.list_item img {
+    width: 32px;
+}
+
+.list_item p {
+    margin: 0;
+    margin-left: 30px;
+    color: #1a1a1a;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .info {
+        width: 450px;
+        margin: 0;
+    }
+    
+    .info h1{
+        font-size: 32px;
+    }
+    
+    .list_item{
+        margin-top: 25px;
+    }
+    
+    .list p{
+        font-size: 20px;
+    }
+}

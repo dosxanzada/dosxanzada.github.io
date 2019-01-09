@@ -16,8 +16,4 @@ $(document).ready(function () {
     $('ul').click(function () {
         $('#navbarContent').removeClass('.show');
     });
-
-    
-
-    
 });
