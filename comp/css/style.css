@@ -1,0 +1,354 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #5D5F65;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+
+.header .logo {
+    position: absolute;
+    font-family: 'Montserrat'sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #141720;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 453px;
+    list-style-type: none;
+    margin-left: 536px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #5D5F65;
+}
+
+.header ul li a {
+    color: #5D5F65;
+}
+
+.header .menu li {
+    margin-bottom: 0;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    background: url(../img/back.png);
+    background-repeat: no-repeat no-repeat;
+    /*    background-position: top;*/
+}
+
+main .info {
+    position: absolute;
+    top: 289px;
+    left: 20%;
+}
+
+main h1 {
+    font-family: 'Montserrat'sans-serif;
+    font-weight: bold;
+    line-height: 54px;
+    font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #141720;
+}
+
+main p {
+    font-family: 'Open Sans'sans-serif;
+    line-height: 60px;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #5D5F65;
+}
+
+.about {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-text {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    background: #141720;
+    padding: 165px 50px;
+}
+
+.about-text h2 {
+    font-family: 'Montserrat'sans-serif;
+    line-height: 26px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.about-text p {
+    margin-top: 60px;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.about-img {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    background: #000;  /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
+    overflow: hidden;  /* Ограничиваем видиую область */
+}
+
+.about-img img {
+    width: 100%;
+    height: 650px;
+    transition: opacity 124ms linear, transform 124ms linear; 
+    display: block; /* Убираем полосу под картинкий */
+}
+/*
+.about-img:hover {
+    opacity: 0.9; 
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+*/
+.timeline {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timeline-img {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline-text {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    height: 650px;
+    padding: 140px 50px;
+}
+
+.timeline-text h2 {
+    font-family: 'Montserrat'sans-serif;
+    line-height: 26px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #2B2B2B;
+}
+
+.timeline-text p {
+    margin-top: 60px;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #5D5F65;
+}
+
+.services {
+    background: #efefef;
+    padding: 139px 152px;
+}
+
+.services h1 {
+    text-align: center;
+    font-family: 'Montserrat'sans-serif;
+    line-height: 26px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #2B2B2B;
+}
+
+.serv-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.serv-items {
+    width: 355px;
+    height: 180px;
+    margin-left: 35px;
+}
+
+.serv-items h3 {
+    margin-top: 22px;
+    font-family: 'Montserrat'sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 20px;
+    color: #141720;
+}
+
+.serv-items p {
+    margin-top: 14px;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #5D5F65;
+}
+
+.were {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.were-text {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    background: #141720;
+    padding: 165px 50px;
+}
+
+.were-text h2 {
+    font-family: 'Montserrat'sans-serif;
+    line-height: 26px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.were-text p {
+    margin-top: 60px;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.were-img {
+    position: absolute;
+    width: 50%;
+    left: 0;
+}
+
+.were-img img {
+    width: 100%;
+    height: 650px;
+}
+
+.contact {
+    width: 100%;
+    /*    height: 650px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-text {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    background: #141720;
+    padding: 65px 50px;
+}
+
+.contact-text h2 {
+    font-family: 'Montserrat'sans-serif;
+    line-height: 26px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.contact-text p {
+    margin-top: 60px;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.contact-img {
+    position: absolute;
+    width: 50%;
+    right: 0;
+}
+
+.contact-img img {
+    width: 100%;
+    /*    height: 650px;*/
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    background: #141720;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+textarea {
+    width: 500px;
+    background: #141720;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 330px;
+    width: 170px;
+    height: 50px;
+    background: #C71222;
+    border: 0;
+    border-radius: 100px;
+    color: #ffffff;
+}
+
+.jq-animate-icon {}
+
+.serv-items:hover {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+
+}
