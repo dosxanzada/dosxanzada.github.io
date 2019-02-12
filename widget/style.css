@@ -1,0 +1,127 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    padding: 0px 0px 0px 0px;
+}
+
+body {
+    background: #e5e5e5;
+}
+
+.widget {
+    width: 810px;
+    height: 300px;
+    background: #ffffff;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 46px 0 0 35px
+}
+
+.title {
+    display: flex;
+}
+
+.title button {
+    display: flex;
+    align-items: center;
+    width: 279px;
+    height: 50px;
+    padding-left: 0;
+    background: #FFEAAA;
+    border: 1px solid #B7B7B7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #0066FF;
+    line-height: 21px;
+    font-size: 18px;
+}
+
+.title .active {
+    color: #000000;
+}
+
+.title button img {
+    width: 22px;
+    height: 22px;
+    margin: 14px;
+}
+
+.body {
+    position: absolute;
+    width: 720px;
+    background: #FFE9D9;
+    border-radius: 2px;
+    margin-top: 16px;
+    padding: 48px 0px 32px 40px
+}
+
+.body label {
+    position: absolute;
+    top: 24px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 15px;
+    color: #8E8B8B;
+}
+
+.body input {
+    background: #FFFFFF;
+    border: 1px solid #B7B7B7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.body input[type=date] {
+    width: 215px;
+    height: 50px;
+    padding: 14px 28px 14px 15px;
+}
+
+.body input[type=time] {
+    width: 104px;
+    height: 50px;
+    margin-left: -5px;
+    padding: 14px 2px 14px 9px;
+}
+
+.body select {
+    width: 155px;
+    height: 50px;
+    margin-left: -5px;
+    line-height: 24px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.body input[type=submit] {
+    width: 160px;
+    height: 50px;
+    background: #F46D3E;
+    border: 0;
+    border-radius: 2px;
+    margin-left: 35px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.info {
+    position: absolute;
+    top: 257px;
+    font-family: PT Sans;
+    line-height: 21px;
+    font-size: 18px;
+    color: #000000;
+}
