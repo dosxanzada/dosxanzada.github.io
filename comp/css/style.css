@@ -11,12 +11,12 @@ body {
 .header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     height: 100px;
 }
 
 .header .logo {
-    position: absolute;
     font-family: 'Montserrat'sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -30,7 +30,6 @@ body {
     justify-content: space-between;
     width: 453px;
     list-style-type: none;
-    margin-left: 536px;
     font-size: 16px;
     letter-spacing: 0.5px;
     color: #5D5F65;
@@ -46,19 +45,18 @@ body {
 
 main {
     width: 100%;
-    height: 80vh;
+    height: 600px;
     background: url(../img/back.png);
     background-repeat: no-repeat no-repeat;
-    /*    background-position: top;*/
+    background-size: cover;
 }
 
 main .info {
-    position: absolute;
-    top: 289px;
-    left: 20%;
+    margin: 0 auto;
+    padding: 220px 0 0;
 }
 
-main h1 {
+.info h1 {
     font-family: 'Montserrat'sans-serif;
     font-weight: bold;
     line-height: 54px;
@@ -82,14 +80,10 @@ main p {
     width: 100%;
     height: 650px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .about-text {
-    position: absolute;
     width: 50%;
-    left: 0;
     background: #141720;
     padding: 165px 50px;
 }
@@ -111,11 +105,11 @@ main p {
 }
 
 .about-img {
-    position: absolute;
+    background-image: url(../img/about.png);
     width: 50%;
     right: 0;
-    background: #000;  /* У блока, оборачивающего картинку при наведении будет просвечивать черный фон */
-    overflow: hidden;  /* Ограничиваем видиую область */
+    background-size: cover;
+    background-position: center center;
 }
 
 .about-img img {

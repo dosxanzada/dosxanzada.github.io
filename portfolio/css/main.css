@@ -114,20 +114,40 @@ section h1 {
     opacity: 1;
 }
 
-
-
-.about {
-    margin-top: 3%;
+.card-img1{
+    background-image: url(../img/services-1.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
 }
 
-
-.quest {
-    text-align: left;
-    font-weight: bold;
-    color: red;
-
+.card-img2{
+    background-image: url(../img/services-2.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
 }
 
-.lead {
-    text-align: right;
+.card-img3{
+    background-image: url(../img/services-3.png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width:768px){
+    .card-deck{
+        display: block;
+    }
+
+    .card + .card{
+        margin-top: 15px;
+    }
+    
+    .card img{
+        margin: 0 auto;
+    }
 }
