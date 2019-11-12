@@ -187,6 +187,7 @@ main {
     margin: 0 auto;
 }
 
+.call__now form input,
 .main__inner-right form input {
     width: 100%;
     height: 50px;
@@ -197,10 +198,12 @@ main {
     padding: 0 15px;
 }
 
+.call__now form input:focus,
 .main__inner-right form input:focus {
     background-color: #fff;
 }
 
+.call__now form input[type=submit],
 .main__inner-right form input[type=submit] {
     width: 80%;
     background-color: #17bed2;
@@ -210,12 +213,14 @@ main {
     margin: 0 auto;
 }
 
+.call__now form input[type=submit]:hover,
 .main__inner-right form input[type=submit]:hover {
     background-color: #077989;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
+.call__now form input[type=submit]:active,
 .main__inner-right form input[type=submit]:active {
     width: 79%;
     height: 49px;
@@ -283,6 +288,36 @@ main {
     height: 2px;
     background: #17bed2;
     content: " ";
+}
+
+.all__works {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.all__works a {
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.all__works a.ac {
+    background: #17bed2;
+    color: #fff;
+    border-radius: 10px;
+    transition: all .7s;
+}
+
+.all__works a span::after {
+    font-family: "icomoon";
+    content: "\f105";
+    position: absolute;
+    right: 25px;
+}
+
+.all__works-link span::after.ac {
+    right: 10px;
+
 }
 
 .services {
@@ -424,11 +459,12 @@ main {
 }
 
 .we__sites-list {
-    width: 25%;
+    width: 24%;
+    min-height: 156px;
     font-size: 24px;
     color: #000;
     font-weight: 700;
-    padding: 20px;
+    padding: 15px 0 0;
     position: relative;
     cursor: pointer;
 }
@@ -439,8 +475,16 @@ main {
     color: rgba(23, 190, 210, .5);
     position: absolute;
     top: 0;
-    left: 0;
+    left: 20px;
     z-index: -1;
+}
+
+.we__sites-title {
+    padding-left: 50px;
+}
+
+.we__sites-text {
+    padding-left: 20px;
 }
 
 .we__sites-list.list1::before {
@@ -466,9 +510,30 @@ main {
     margin-top: 30px;
 }
 
+.call__now {
+    background: #fafafa;
+}
 
+.call__now form {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.call__now-inputs {
+    display: flex;
+    justify-content: center;
+}
 
+.call__now-inputs input {
+    width: 300px !important;
+    margin: 0 10px;
+    border-color: #17bed2 !important;
+}
+
+.call__now form input[type=submit] {
+    width: 250px !important;
+}
 
 /*media queries*/
 

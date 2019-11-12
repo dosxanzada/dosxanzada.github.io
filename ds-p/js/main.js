@@ -48,4 +48,8 @@ jQuery(document).ready(function () {
     });
 
 
+    $('.all__works-link').hover(function () {
+        $(this).toggleClass('ac');
+    });
+
 });
