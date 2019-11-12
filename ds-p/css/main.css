@@ -74,8 +74,32 @@ header {
     padding: 25px 0 20px 0;
 }
 
+header.scroll {
+    height: 50px;
+    background: #fff;
+    border-bottom-color: #f0f0f0;
+    transition-duration: 200ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.header__inner.minify {
+    padding-top: 15px;
+    transition-duration: 300ms;
+    transition-property: all;
+}
+
 .header__logo {
-    margin: auto 0;
+    margin-top: -7px;
+}
+
+.main__logo,
+.second__logo {
+    width: 125px;
+}
+
+.second__logo {
+    display: none;
 }
 
 .header__menu {
@@ -88,6 +112,13 @@ header {
     font-weight: 600;
     color: #fff;
     padding: 0 20px;
+    transition-duration: .3s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7, 1, .7, 1);
+}
+
+.header__menu li a.scroll-a {
+    color: #515769;
     transition-duration: .3s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.7, 1, .7, 1);
