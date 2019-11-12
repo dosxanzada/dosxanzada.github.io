@@ -13,7 +13,7 @@
     <title>Hello, world!</title>
 </head>
 
-<body>
+<body id="body">
     <header>
         <div class="container">
             <div class="header__inner">
@@ -24,8 +24,8 @@
                 </div>
 
                 <ul class="header__menu">
-                    <li><a href="">Главная</a></li>
-                    <li><a href="">Наши услуги</a></li>
+                    <li><a href="#body">Главная</a></li>
+                    <li><a href="#servs">Наши услуги</a></li>
                     <li><a href="">Цены</a></li>
                     <li><a href="">Портфолио</a></li>
                     <li><a href="">Контакты</a></li>
@@ -34,7 +34,7 @@
         </div>
     </header>
 
-    <main>
+    <main id="main">
         <div class="container">
             <div class="main__inner">
                 <div class="main__inner-left">
@@ -57,19 +57,197 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
 
 
-    <div class="container">
-        <h1>Hello, world!</h1>
+    <section class="last__prods" id="last_prodc">
+        <div class="container">
+            <div class="container__title">
+                <h2>Наши последние продукты</h2>
+                <p>Ознакомтесь с нашими последними продуктами</p>
+            </div>
+            <div class="last__prods-items">
+                <div class="last__prods-item">
+                    <div class="last__prods-item__img">
+                        <img src="img/01.jpg" alt="">
+                    </div>
+                    <h4>
+                        <a href="" class="last__prods-item__title">Создание сайта</a>
+                        <span class="last__prods-item__span"></span>
+                    </h4>
+                    <p class="last__prods-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste optio, officiis libero! Dicta perspiciatis at, nobis qui mollitia iusto porro iste, rem assumenda vero quae dolore. Hic eaque non sit.
+                    </p>
+                    <a href="" class="last__prods-item__link">Подробнее</a>
+                </div>
+                <div class="last__prods-item">
+                    <div class="last__prods-item__img">
+                        <img src="img/02.jpg" alt="">
+                    </div>
+                    <h4>
+                        <a href="" class="last__prods-item__title">Создание сайта</a>
+                        <span class="last__prods-item__span"></span>
+                    </h4>
+                    <p class="last__prods-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste optio, officiis libero! Dicta perspiciatis at, nobis qui mollitia iusto porro iste, rem assumenda vero quae dolore. Hic eaque non sit.
+                    </p>
+                    <a href="" class="last__prods-item__link">Подробнее</a>
+                </div>
+                <div class="last__prods-item">
+                    <div class="last__prods-item__img">
+                        <img src="img/03.jpg" alt="">
+                    </div>
+                    <h4>
+                        <a href="" class="last__prods-item__title">Создание сайта</a>
+                        <span class="last__prods-item__span"></span>
+                    </h4>
+                    <p class="last__prods-item__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste optio, officiis libero! Dicta perspiciatis at, nobis qui mollitia iusto porro iste, rem assumenda vero quae dolore. Hic eaque non sit.
+                    </p>
+                    <a href="" class="last__prods-item__link">Подробнее</a>
+                </div>
+            </div>
+        </div>
+        <a href="" id="servs" style="position: absolute; bottom: 0;"></a>
+    </section>
 
-    </div>
+    <section class="services">
+        <div class="container">
+            <div class="container__title">
+                <h2>Наши услуги</h2>
+            </div>
+            <div class="services__row">
+                <div class="services__item">
+                    <div class="services__icon">
+                        <span class="services__icon-web"></span>
+                    </div>
+                    <div class="services__body">
+                        <h3>Создание Landing Page</h3>
+                        <p>от 15 000 тг</p>
+                        <div class="services__info">
+                            <p>
+                                Одностраничный сайт с адаптивным дизайном для привлечения клиентов.
+                            </p>
+                        </div>
+                    </div>
 
-    <div class="jumbotron" style="height: 500px;">
+                    <a href="#" class="services__link">
+                    </a>
+                </div>
 
-    </div>
+                <div class="services__item">
+                    <div class="services__icon">
+                        <span class="services__icon-corp"></span>
+                    </div>
+                    <div class="services__body">
+                        <h3>Создание Корпоративного сайта</h3>
+                        <p>от 35 000 тг</p>
+                        <div class="services__info">
+                            <p>
+                                Корпоративный сайт до 5-7 страниц с уникальным дизайном и возможностью самому менять контента сайта.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="#" class="services__link">
+                    </a>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__icon">
+                        <span class="services__icon-estore"></span>
+                    </div>
+                    <div class="services__body">
+                        <h3>Создание Интернет магазина</h3>
+                        <p>от 50 000 тг</p>
+                        <div class="services__info">
+                            <p>
+                                Интернет магазин до 50 единиц товаров.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="#" class="services__link">
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="services__row" style="margin-top: 5px;">
+                <div class="services__item">
+                    <div class="services__icon">
+                        <span class="services__icon-serv"></span>
+                    </div>
+                    <div class="services__body">
+                        <h3>Техническая поддержка вашего сайта</h3>
+                        <p>от 10 000 тг/в месяц</p>
+                        <div class="services__info">
+                            <p>
+                                Техническая поддержка и доработка над вашим сайтом.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="#" class="services__link">
+                    </a>
+                </div>
+                <div class="services__item">
+                    <div class="services__icon">
+                        <span class="services__icon-graph"></span>
+                    </div>
+                    <div class="services__body">
+                        <h3>Графические услуги</h3>
+                        <p>от 5 000 тг</p>
+                        <div class="services__info">
+                            <p>Разные графические услуги - обработка фотографий, дизайн коллажов, баннеров и т.д.</p>
+                        </div>
+                    </div>
+                    <a href="#" class="services__link">
+                    </a>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__icon">
+                        <span class="services__icon-build"></span>
+                    </div>
+                    <div class="services__body">
+                        <h3>Любой ваш проект</h3>
+                        <!--                        <p>от 5 000 тг</p>-->
+                        <div class="services__info">
+                            <p>
+                                Не знаете что вам нужно?! Оставьте заявку и наша команда обязательно вам подскажет идею над расширением вашего бизнеса.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="#" class="services__link">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="result">
+        <div class="container">
+            <div class="container__title">
+                <h2>Сразу увидите результат!</h2>
+                <p>Мы работаем с клиентами на протяжении всего цифрового жизненного цикла и помогаем им расширять свое присутствие в Интернете для развития и расширения своих брендов и предприятий.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="prices">
+
+
+
+
+
+
+        Мы Создаем Красивые, Оптимизированные Веб-Сайты И Интернет-Магазины, Которые Конвертируют И Расширяют Ваш Бизнес
+
+        Давайте создадим сайт вашей мечты
+        Мы разрабатываем сайты и интернет-магазины для современных, амбициозных и ориентированных брендов. Если это звучит как вы, свяжитесь с нами, чтобы рассказать нам больше о вашем проекте.
+
+
+    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
