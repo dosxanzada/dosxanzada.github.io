@@ -17,10 +17,6 @@ jQuery(document).ready(function () {
         }
     });
 
-
-
-
-
     $(".header__menu li a").click(function () {
         elementClick = $(this).attr("href");
         destination = $(elementClick).offset().top;
@@ -47,6 +43,9 @@ jQuery(document).ready(function () {
         $(this).find('.services__info').fadeToggle();
     });
 
+    $('.we__sites-list').hover(function () {
+        $(this).find('.we__sites-text').slideToggle('500');
+    });
 
 
 });

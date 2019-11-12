@@ -418,13 +418,53 @@ main {
     z-index: 1;
 }
 
-.prices {
-    height: 500px;
+.we__sites-lists {
+    display: flex;
+    justify-content: space-between;
 }
 
+.we__sites-list {
+    width: 25%;
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
 
+.we__sites-list::before {
+    font-family: "icomoon";
+    font-size: 60px;
+    color: rgba(23, 190, 210, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
+.we__sites-list.list1::before {
+    content: "\f10b";
+}
 
+.we__sites-list.list2::before {
+    content: "\f135";
+}
+
+.we__sites-list.list3::before {
+    content: "\f132";
+}
+
+.we__sites-list.list4::before {
+    content: "\f004";
+}
+
+.we__sites-text {
+    font-size: 15px;
+    font-weight: 400;
+    display: none;
+    margin-top: 30px;
+}
 
 
 
