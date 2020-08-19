@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'PT Root';
+    src: url('../fonts/PT Root UI Medium/PT Root UI_Medium.eot');
+    src: url('../fonts/PT Root UI Medium/PT Root UI_Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PT Root UI Medium/PT Root UI_Medium.woff') format('woff'),
+        url('../fonts/PT Root UI Medium/PT Root UI_Medium.woff') format('truetype');
+    /*        url('sri-tsc-webfont.svg#Sri-TSCRegular') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Root Bold';
+    src: url('../fonts/PT Root UI Bold/PT Root UI_Bold.eot');
+    src: url('../fonts/PT Root UI Bold/PT Root UI_Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PT Root UI Bold/PT Root UI_Bold.woff') format('woff'),
+        url('../fonts/PT Root UI Bold/PT Root UI_Bold.woff') format('truetype');
+    /*    url('sri-tsc-webfont.svg#Sri-TSCRegular') format('svg');*/
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Styrene A Web';
+    src: url('../fonts/Styrene A Web/StyreneAWeb-Medium.eot');
+    src: url('../fonts/Styrene A Web/StyreneAWeb-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Styrene A Web/StyreneAWeb-Medium.woff') format('woff'),
+        url('../fonts/Styrene A Web/StyreneAWeb-Medium.woff') format('truetype');
+    /*    url('sri-tsc-webfont.svg#Sri-TSCRegular') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}

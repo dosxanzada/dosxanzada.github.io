@@ -1,0 +1,614 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    margin: 0;
+    font-family: "PT Root", sans-serif;
+    /*        font-family: 'Styrene A Web', sans-serif;*/
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #000;
+    text-align: left;
+    background-color: #F4F4F4;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    overflow: visible;
+    background-color: #DBDBDB;
+}
+
+.container {
+    max-width: 1200px;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.header {
+    background-color: #fff;
+}
+
+.header__row {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+    margin-left: 56px;
+}
+
+.header li {
+    margin-left: 32px;
+    display: inline-block;
+}
+
+.header li:nth-child(1) {
+    margin-left: 0;
+}
+
+.header__link {
+    color: #000;
+    border-bottom: 1px solid transparent;
+    transition: .5s ease all;
+}
+
+.header__link:hover {
+    border-bottom-color: #000;
+}
+
+.header__user {
+    margin-left: auto;
+    display: inline-block;
+}
+
+.header__user-link {
+    padding: 5px;
+    color: #000;
+    font-family: "icomoon";
+    border: 1px solid transparent;
+    border-radius: 50%;
+    transition: .5s ease all;
+}
+
+.header__user-link:hover {
+    border-color: #000;
+}
+
+.header__user-link.search::before {
+    content: "\e986";
+}
+
+.header__user-link.wishlist::before {
+    content: "\e9da";
+}
+
+.header__user-link.cart::before {
+    content: "\e93a";
+}
+
+.header__user-link.user::before {
+    content: "\e971";
+}
+
+
+
+/*MAIN CONTENT*/
+.breadcrumbs {
+    margin-top: 16px;
+}
+
+.breadcrumbs__nav {
+    display: flex;
+}
+
+.breadcrumbs__list {
+    color: #000;
+}
+
+.breadcrumbs__nav li::after {
+    content: "/";
+}
+
+.breadcrumbs__nav li:last-child:after {
+    content: "";
+}
+
+.breadcrumbs__list {
+    margin-left: 5px;
+}
+
+.breadcrumbs__list:nth-child(1) {
+    padding: 0;
+}
+
+.breadcrumbs__nav li:nth-last-child(1) .breadcrumbs__list {
+    color: #d1d1d1;
+}
+
+
+/*PRODUCT CONTAINER*/
+.product {
+    margin-top: 24px;
+}
+
+.product__row {
+    flex-wrap: nowrap;
+}
+
+.product__slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.product__slide-img {
+    margin-top: 2px;
+    border: 1px solid transparent;
+}
+
+.product__slide-img.active {
+    border: 1px solid #DBDBDB;
+}
+
+
+
+
+/*PRODUCT CENTER CONTAINER*/
+.product__center {
+    width: auto;
+    height: 742px;
+    position: relative;
+    margin-left: 16px;
+}
+
+
+/*WISHLIST*/
+.product__img-wishlist {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #000;
+    font-size: 32px;
+}
+
+.wishlist-icon::before {
+    content: "\e9da";
+    font-family: "icomoon";
+    color: #000;
+    font-size: 32px;
+}
+
+
+/*SLIDER ARROW*/
+.arrows-left,
+.arrows-right {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: #000;
+    font-size: 32px;
+}
+
+.product__img-arrows.arrows-left {
+    left: 32px;
+}
+
+.arrows-left::before {
+    content: "\ea40";
+    font-family: "icomoon";
+}
+
+.product__img-arrows.arrows-right {
+    right: 32px;
+}
+
+.arrows-right::before {
+    content: "\ea3c";
+    font-family: "icomoon";
+}
+
+
+
+/*PRODUCT INFO CONTAINER*/
+.product__right {
+    margin-left: 32px;
+}
+
+.product__madein {
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.product__title {
+    margin-top: 14px;
+    font-family: "Styrene A Web";
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.product__price {
+    font-size: 28px;
+    line-height: 2;
+}
+
+.product__spece-choose {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__color-choose-title {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.product__color-choose-ul,
+.product__size-choose-ul {
+    margin-top: 14px;
+    display: flex;
+}
+
+.product__color-choose-ul li,
+.product__size-choose-ul li {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 16px;
+    background-color: #000;
+}
+
+.product__size-choose-ul li {
+    background-color: #fff;
+    border: 2px solid #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__size-choose-ul li.active {
+    border-color: #000;
+}
+
+.product__size-item {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.product__buy {
+    width: 100%;
+    height: 42px;
+    margin-top: 24px;
+    padding: 13px;
+    display: inherit;
+    background-color: #C4A996;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product__size-guide {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__size-guide-left {
+    color: #C4A996;
+}
+
+.product__size-guide-right {
+    font-weight: bold;
+}
+
+.product__hr {
+    height: 1px;
+    margin-top: 24px;
+    background-color: #DBDBDB;
+}
+
+.product__main-info {
+    width: inherit;
+}
+
+.product__main-info {
+    margin-top: 24px;
+    line-height: 24px;
+}
+
+.product__composition {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/*PRODUCT SIMILAR SLIDER*/
+.product__similar {
+    margin-top: 32px;
+}
+
+.product__similar-title {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.product__similar-inner {
+    margin-top: 24px;
+    position: relative;
+}
+
+.product__similar-slider {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.product__similar-slider > li {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.product__similar-img-wishlist {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 99;
+}
+
+.product__similar-img-wishlist.wishlist-icon::before {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+.product__similar-arrows > a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 24px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.product__similar-arrows.arrows-left {
+    left: -16px;
+}
+
+.product__similar-arrows.arrows-right {
+    right: -16px;
+}
+
+
+
+
+
+.other {
+    margin-top: 64px;
+}
+
+.other__main-title {
+    font-family: "Styrene A Web", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.other__slider {
+    width: 100%;
+    margin-top: 24px;
+    position: relative;
+}
+
+.other__slider-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.other__slider-ul > li {
+    position: relative;
+}
+
+.other__slider-link {
+    color: #000;
+}
+
+.other__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.other__info > a {
+    color: #000;
+}
+
+.other__price {
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.other__title {
+    margin-top: 10px;
+}
+
+.other__slider-img-wishlist {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+}
+
+.other__slider-arrows {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
+}
+
+.other__slider-arrows > a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 24px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.other__slider-arrow.arrows-left {
+    left: -16px;
+}
+
+.other__slider-arrow.arrows-right {
+    right: -16px;
+}
+
+
+
+
+/*FOOTER*/
+.footer {
+    margin-top: 96px;
+    padding: 42px 0 96px;
+    background-color: #fff;
+}
+
+.footer__row {
+    justify-content: space-between;
+}
+
+.footer__social {
+    width: 140px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social > a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #EAEAEA;
+    border-radius: 50%;
+    color: #000;
+    font-family: "icomoon";
+    font-size: 18px;
+}
+
+.footer__facebook::before {
+    content: "\ea90";
+}
+
+.footer__instagram::before {
+    content: "\ea92";
+}
+
+.footer__vk::before {
+    content: "\ea98";
+}
+
+
+
+.footer__menu > li {
+    margin-top: 12px;
+}
+
+.footer__menu > li:nth-child(1) {
+    margin-top: 0;
+}
+
+.footer__link {
+    color: #000;
+    line-height: 24px;
+}
+
+.footer__news-title {
+    font-family: "Styrene A Web";
+    font-size: 20px;
+}
+
+.footer__news-text {
+    line-height: 24px;
+}
+
+.footer__form {
+    margin-top: 24px;
+    position: relative;
+}
+
+.footer__email-input {
+    width: 480px;
+    height: 64px;
+    padding: 16px 27px;
+    border: 1px solid #BEBEBE;
+}
+
+.footer__email-input::placeholder {
+    font-family: "PT Root", sans-serif;
+}
+
+
+.footer__form-btn {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: 0;
+    right: 16px;
+    background-color: #EAEAEA;
+    border-radius: 50%;
+    border: none;
+}
+
+
+.footer__form-btn::before {
+    content: "\ea42";
+    font-family: "icomoon";
+}
