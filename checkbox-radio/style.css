@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.form__checkbox-input {
+    /*    display: none; - использовать display: none неправильно, т.к. site access-у будет способствовать */
+    /* поэтому надо использовать следующие свойства */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding-left: 20px;
+}
+
+.form__checkbox-span {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    border: 2px solid #0ea36e;
+    margin-left: -20px;
+}
+
+/* Квадратный чекед */
+/*
+.form__checkbox-input:checked + .form__checkbox-span::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    background-color: #0ea36e;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+
+.form__checkbox-input:disabled + .form__checkbox-span {
+    border-color: #646161;
+}
+
+/* Квадратный чекед для disabled */
+/*
+.form__checkbox-input:checked:disabled + .form__checkbox-span::before {
+    background-color: #646161;
+}
+*/
+
+.form__checkbox-input:focus + .form__checkbox-span {
+    box-shadow: 0 0 0 2px #000;
+}
+
+
+/* Своя картинка для чекед */
+.form__checkbox-input:checked + .form__checkbox-span {
+    background-image: url(./img/chekc-on.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: center;
+}
+
+/* Своя картинка для чекед disabled */
+.form__checkbox-input:checked:disabled + .form__checkbox-span {
+    background-image: url(./img/chekc-disabled.svg);
+    background-repeat: no-repeat no-repeat;
+}
+
+
+/* RADIO INPUTS */
+.form__radio {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__radio-input {
+    /*    display: none; - использовать display: none неправильно, т.к. site access-у будет способствовать */
+    /* поэтому надо использовать следующие свойства */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    padding-left: 20px;
+}
+
+.form__radio-span {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    border: 2px solid #0ea36e;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+
+.form__radio-input:checked + .form__radio-span::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #0ea36e;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form__radio-input:disabled + .form__radio-span {
+    border-color: #646161;
+}
+
+.form__radio-input:disabled:checked + .form__radio-span::before {
+    background-color: #646161;
+}
+
+.form__radio-input:focus + .form__radio-span {
+    box-shadow: 0 0 0 2px #000;
+}
