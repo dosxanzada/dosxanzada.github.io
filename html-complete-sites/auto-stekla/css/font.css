@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?ogibm');
+    src: url('../fonts/icomoon.eot?ogibm#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?ogibm') format('truetype'),
+        url('../fonts/icomoon.woff?ogibm') format('woff'),
+        url('../fonts/icomoon.svg?ogibm#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+    content: "\e942";
+}
+
+.icon-circle-right:before {
+    content: "\ea42";
+}
+
+.icon-circle-down:before {
+    content: "\ea43";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-whatsapp:before {
+    content: "\ea93";
+}

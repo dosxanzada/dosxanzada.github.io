@@ -1,0 +1,219 @@
+@media (max-width:1024px) {
+    .container {
+        max-width: 967px;
+    }
+
+    .card__title {
+        height: 58px;
+    }
+}
+
+@media(max-width: 768px) {
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .call__inner {
+        height: auto;
+    }
+
+    .call__inner {
+        padding: 20px 0;
+        display: block;
+        text-align: center;
+    }
+
+    .call__inner > .btn {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .form-content__inner {
+        width: 100%;
+    }
+
+    .works__row:nth-child(3) {
+        margin-top: 10px;
+    }
+
+    .works__item {
+        margin: 0 20px;
+    }
+
+    .works__text {
+        opacity: 1;
+    }
+}
+
+@media(max-width: 700px) {
+    .services__row {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .card + .card {
+        margin-top: 30px;
+    }
+
+    .card__title {
+        height: auto;
+    }
+
+    .footer__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__info {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+
+    .footer__menu {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .footer__map {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 650px) {
+    .form-content__inner {
+        flex-direction: column;
+    }
+
+    .form__left,
+    .form__right {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .form__left {
+        padding-bottom: 25px;
+    }
+
+    .form__right {
+        padding-top: 25px;
+    }
+
+    .works__row-desktop {
+        display: none;
+    }
+
+    .works__row-main-mobile {
+        display: block;
+    }
+
+    .works__row-mobile.multiple-items {
+        display: flex;
+    }
+}
+
+
+@media(max-width: 500px) {
+    .main__inner {
+        padding: 50px 0;
+    }
+
+    .why__row {
+        flex-direction: column;
+    }
+
+    .w-card + .w-card {
+        margin-top: 20px;
+    }
+
+    .w-card__text {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main__inner {
+        padding: 70px 0;
+    }
+
+    .main__title {
+        font-size: 28px;
+    }
+
+    .main__subtitle {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 420px) {
+
+    .form__left,
+    .form__right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+    }
+
+    .footer__info,
+    .footer__menu,
+    .footer__map {
+        max-width: 90% !important;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .footer__menu,
+    .footer__map {
+        margin-top: 30px;
+    }
+
+    .footer__title {
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 375px) {
+    .burger {
+        padding-left: 0;
+    }
+
+    .btn {
+        /*        padding: 15px 30px 15px 25px;*/
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    .main__inner {
+        padding: 50px 0;
+    }
+
+    .main__link {
+        margin-top: 30px;
+    }
+
+    .form__text {
+        width: 100%;
+    }
+}
